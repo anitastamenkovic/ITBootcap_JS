@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* a {
+ border-top-style: dashed;
+ border-top-width: 2px;
+ border-color: black;
+ border-radius: 30%;
+ border-left-width: 5px;
+ border-left-style: solid;
+} */
+
+a {
+  border: 2px dashed black;
+  border-left: 5px solid red;
+  margin: 10px 15px 20px;
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 40px;
+  /* a tag je inline i ne moze se promeniti width i height */
+}
+
+#prviSpan,
+#drugiSpan {
+  border: 2px solid grey;
+  margin: 5px;
+  padding: 20px;
+  /* bez bordera, margina, paddinga i pisati ih jedan pored drugog ako zelimo da su u istom redu */
+  display: inline-block;
+  /* sa ovim mozemo da primenimo width i height */
+  width: 50%;
+  height: 30px;
+}
+
+#prviSpan {
+  background-color: rgb(255, 205, 187);
+}
+
+#drugiSpan {
+  background-color: rgb(207, 207, 207);
+}
+
+p {
+  border: 2px solid green;
+  margin: 10px;
+  padding: 10px;
+  background-color: coral;
+  width: 350px;
+  height: 50px;
+}
+/* p tag je block i moze se promeniti width i height */
+
+/* Display svojstvo
+block - moze se promeniti width i height i redjaju se jedan ispod drugog
+p, div, h1,h2...h6, table
+
+inline - ne moze da se promeni width i height
+a, span,td
+
+inline-block - inline kome moze da se podesi width i height
+*/
+
+/* ukupan prostor koji neki element zauzima + w,h +padding + border + margin */
