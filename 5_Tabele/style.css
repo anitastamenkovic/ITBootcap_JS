@@ -1,0 +1,23 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.zuto {
+  background-color: yellow;
+}
+
+.prvaTabela tr:nth-child(odd) {
+  font-style: italic;
+}
+
+.drugaTabela tr:nth-child(even):hover {
+  background-color: yellow;
+}
+
+.drugaTabela tr:nth-child(3n) {
+  color: blue;
+}
