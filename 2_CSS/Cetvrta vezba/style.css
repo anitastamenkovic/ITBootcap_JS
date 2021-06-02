@@ -1,0 +1,30 @@
+.prviNaslov {
+  text-align: center;
+  color: red;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+.prvaSlika {
+  border: double red 2px;
+}
+
+.paragraf {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+}
+
+.paragraf2 {
+  color: crimson;
+}
+
+.link {
+  color: red;
+}
+
+.link:hover {
+ color: green;
+}
