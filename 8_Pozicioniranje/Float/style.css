@@ -1,0 +1,91 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Tri paragrafa */
+
+#float {
+ background-color: deeppink;
+ width: 100%;
+ margin: 44px auto 0;
+ /* height: 200px; jedan nacin */
+ overflow: hidden;
+ /* parent */
+}
+
+#float p {
+ background-color: deepskyblue;
+ float: left;
+ /* child */
+ width: 30%;
+ margin: 10px;
+ padding: 10px;
+ text-align: center;
+ font-size: 1.2rem;
+}
+
+/* Navbar */
+
+.topbar ul {
+ width: 100%;
+ position: fixed;
+ top: 0;
+ overflow: hidden;
+}
+
+li {
+ background-color: fuchsia;
+ border: 2px solid black;
+ list-style-type: none;
+ width: 25%;
+ padding: 10px 30px;
+ text-align: center;
+ font-size: 20px;
+}
+
+li:last-child {
+ border-right: none;
+}
+
+.topbar li {
+ float: left;
+}
+
+li:hover {
+ background-color: red;
+ color: white;
+}
+
+.active {
+ background-color: blueviolet;
+}
+
+
+/* Vezba */
+
+.div1 {
+ background-color: firebrick;
+ width: 100%;
+ position: relative;
+ overflow: hidden;
+}
+
+.div2 {
+ background-color: forestgreen;
+ margin: 10px;
+ width: 31%;
+ float: left;
+ text-align: center;
+}
+
+.div2 img {
+ width: 70%;
+ padding: 10px;
+}
+
+.div2 p {
+ padding: 10px;
+}
+
