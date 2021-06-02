@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div#container {
+  background-color: white;
+  width: 20%;
+  border: 1px solid black;
+}
+
+h1 {
+  color: rgb(91, 206, 206);
+  font-size: 2.5rem;
+  padding: 10px 0;
+}
+
+ul li {
+  background-color: lightblue;
+  padding: 10px 5px;
+  margin: 2px;
+  list-style-type: none;
+}
