@@ -1,0 +1,29 @@
+.obojen {
+  background-color: indianred;
+}
+
+.boja2 {
+  background-color: lightblue;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.ljubicasti {
+  color: violet;
+}
+
+span {
+  padding: 10px;
+  border: 1px solid black;
+  width: 20px;
+  display: inline-block;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
